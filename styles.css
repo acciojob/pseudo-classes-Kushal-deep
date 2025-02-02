@@ -3,6 +3,7 @@
 :root{
 	background-color:rgb(135, 206, 235);
 
+
 }
 
 div p:first-child{
@@ -28,8 +29,13 @@ ul li{
 ul li:first-child,
 ul li:last-child{
 	font-size:22px;
+}
+
+ul li:nth-child(odd){
+	
 	background-color:white;
 }
+
 ul li:nth-last-child(3){
 	background-color:pink;
 }

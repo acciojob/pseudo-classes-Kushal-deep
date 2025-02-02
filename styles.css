@@ -2,8 +2,6 @@
 
 :root{
 	background-color:rgb(135, 206, 235);
-
-
 }
 
 div p:first-child{
@@ -22,6 +20,13 @@ ul li{
 
 	background-color:gray
 }
+
+
+ul li:nth-child(odd){
+	
+	background-color:white;
+}
+
 ul li{
 	width:50%;
 	padding:10px;
@@ -31,10 +36,6 @@ ul li:last-child{
 	font-size:22px;
 }
 
-ul li:nth-child(odd){
-	
-	background-color:white;
-}
 
 ul li:nth-last-child(3){
 	background-color:pink;
